@@ -1,0 +1,14 @@
+{
+  "name": "shadowsocks-heroku",
+  "description": "shadowsocks-heroku",
+  "env": {
+    "METHOD": {
+      "description": "加密算法",
+      "value": "aes-256-cfb"
+    },
+    "KEY": {
+      "description": "app-password",
+      "value": ""
+    }
+  }
+}
