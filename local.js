@@ -186,7 +186,7 @@
           buf = new Buffer(10);
           buf.write("\u0005\u0000\u0000\u0001", 0, 4, "binary");
           buf.write("\u0000\u0000\u0000\u0000", 4, 4, "binary");
-          buf.writeInt16BE(remotePort, 8);
+          buf.writeUInt16BE(remotePort, 8);
           connection.write(buf);
           if (HTTPPROXY) {
             endpoint = aServer;
