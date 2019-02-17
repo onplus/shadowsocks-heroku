@@ -1,10 +1,10 @@
 {
-  "server": "onplus.herokuapp.com",
+  "server": "ssr-karenin.herokuapp.com/",
   "local_address": "0.0.0.0",
   "scheme": "ws",
   "local_port": 1080,
   "remote_port": 80,
-  "password": "onplus",
+  "password": "karenin",
   "timeout": 600,
   "method": "aes-256-cfb"
 }
